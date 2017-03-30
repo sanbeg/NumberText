@@ -5,7 +5,7 @@ package com.sanbeg.java.numbertext;
  */
 public class NumberTextEn implements NumberText {
 
-    final String [] ones = {
+    private final String [] ones = {
             "zero",
             "one",
             "two",
@@ -29,7 +29,7 @@ public class NumberTextEn implements NumberText {
             "nineteen",
     };
 
-    final String [] tens = {
+    private final String [] tens = {
             "zero",
             "ten",
             "twenty",
@@ -58,6 +58,10 @@ public class NumberTextEn implements NumberText {
         if (n < 0) {
             builder.append("minus ");
             n *= -1;
+        }
+
+        if (n >= 1000000000) {
+            n = large(builder, n, "billion", 1000000000);
         }
 
         if (n >= 1000000) {
