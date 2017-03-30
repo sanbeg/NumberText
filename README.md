@@ -1,3 +1,5 @@
+[ ![Download](https://api.bintray.com/packages/steve-sanbeg/maven/NumberText/images/download.svg) ](https://bintray.com/steve-sanbeg/maven/NumberText/_latestVersion)
+
 # NumberText
 Convert numbers to text
 
