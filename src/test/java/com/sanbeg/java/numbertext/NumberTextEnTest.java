@@ -47,4 +47,12 @@ public class NumberTextEnTest {
         assertEquals("two billion", subject.number(2000000000));
     }
 
+    @Test
+    public void testMax() {
+        assertEquals(
+                "two billion one hundred forty seven million four hundred eighty three thousand six hundred forty seven",
+                subject.number(Integer.MAX_VALUE)
+        );
+    }
+
 }
