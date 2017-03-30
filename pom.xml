@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.sanbeg.java</groupId>
-    <artifactId>numbertext</artifactId>
+    <artifactId>number-text</artifactId>
     <version>1.0-SNAPSHOT</version>
-    
+
     <properties>
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
