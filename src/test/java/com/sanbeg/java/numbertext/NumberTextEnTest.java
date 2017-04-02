@@ -19,6 +19,7 @@ public class NumberTextEnTest {
 
         assertEquals("fifteen", subject.number(15));
         assertEquals("thirty five", subject.number(35));
+        assertEquals("forty", subject.number(40));
     }
 
     @Test
